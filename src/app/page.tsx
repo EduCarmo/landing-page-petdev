@@ -1,7 +1,9 @@
-import { Maname } from "next/font/google";
+import { Hero } from "./_components/Hero";
 
 export default function Home() {
   return (
-    <main>PAGINA TESTE</main>
-  )
+    <main>
+      <Hero />
+    </main>
+  );
 }
